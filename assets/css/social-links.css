@@ -1,0 +1,9 @@
+/* SHARED FLOATING SOCIAL ICONS */
+.social-rail {position:fixed;right:max(16px,env(safe-area-inset-right));bottom:calc(max(16px,env(safe-area-inset-bottom)) + 66px);z-index:45;display:flex;flex-direction:column;gap:9px;}
+.social-rail a {display:grid;place-items:center;width:44px;height:44px;border-radius:50%;color:#fff;box-shadow:0 5px 18px #0003;border:1px solid #ffffff55;}
+.social-rail svg {width:23px;height:23px;fill:currentColor;}
+.social-instagram {background:linear-gradient(30deg,#ff9d36,#dc287b,#7744bc);}
+.social-facebook {background:#1877f2;}
+.social-youtube {background:#e62117;}
+.social-rail a:focus-visible {outline:3px solid #ffc400;outline-offset:3px;}
+.social-links-reveal{opacity:1;transform:none;}

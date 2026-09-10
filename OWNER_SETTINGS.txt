@@ -1,0 +1,101 @@
+AAAM EVENTS — COMPLETE STATIC WEBSITE
+
+QUICK START
+Extract the ZIP and open the project using VS Code Live Server or a static web
+host. Keep every page on the same domain/origin so browser spin history works
+across pages. Direct file:// opening is not reliable for shared browser storage
+or saving captured video frames. No backend or build step is required.
+
+ONE OWNER SETTINGS FILE
+Edit assets/experience-config.js:
+- maxSpins: 2 sets the total spins per browser. Change this number as needed.
+- prizes changes wheel labels, result messages, percentage metadata and colours.
+- resultSequence sets the exact first, second and subsequent results by prize ID.
+  The current demo is first: 40% OFF; second: FREE WELCOME BOARD.
+  Every sequence ID must exist in prizes. If you allow more spins than sequence
+  entries, the sequence repeats.
+- offerValidDays: null keeps offers without expiry; a number sets validity in days.
+- campaignId changes reset browser history for a deliberately new campaign.
+- greeting / greetingText change the first-visit invitation.
+- terms changes the offer terms shown in the wheel and WhatsApp message.
+- socials contains dummy Instagram, Facebook and YouTube platform links.
+  Replace all three with your real account URLs before launch.
+- whatsapp changes the number used for offer claims and the booking enquiry.
+
+HOW IT WORKS
+Spin & Win is visible on every page. The greeting is shown once per browser for
+this campaign. Its X closes only the greeting. The wheel has its own X and
+supports Escape. Closing during a spin does not erase the awarded result or
+return the consumed spin. The result is saved before the animation starts.
+The first earned offer is selected automatically. Visitors can choose one of
+their earned, unexpired offers in the wheel or on Plan Your Event. Offers never
+stack. The chosen offer appears in the booking summary and its WhatsApp enquiry.
+The existing enquiry form has no priced service total, so a 40% offer is shown
+as an offer on the enquiry, not a calculated invoice or checkout discount.
+The visitor must press Send inside WhatsApp; the owner gets no automatic message
+from merely spinning. Browser history can be cleared or changed; this is a
+static demonstration, not a secure per-person reward system.
+
+PAGE EDITING
+assets/css/common.css: navbar and footer.
+assets/css/home.css: index.html (including Explore More and camera styles).
+assets/css/about.css: About and proprietor photo section.
+assets/css/booking.css: event form and offer summary.
+Every other HTML page has its matching CSS file. Page styles remain separate.
+The shared wheel design is now in assets/css/spin-wheel.css. Edit it once to
+update every page. Shared floating social styles are in assets/css/social-links.css. Its behaviour lives in
+assets/spin-wheel.js and its state rules in assets/spin-state.js.
+Do not run the legacy gen.py over this updated site.
+
+PHOTOGRAPHY
+Photography is removed from every top navigation menu. On Home, Open the frame
+reveals the controls; Capture this moment freezes a frame of the existing event
+film. Visitors can save a PNG or capture another moment. This uses the event
+video, not their webcam. The old photography.html URL remains accessible.
+
+PROPRIETOR PHOTOS
+All three supplied photos appear in About. Edited copies with the upper-left
+and upper-right logos removed are in assets/proprietor/. The physical AAAM
+Events sign remains. The display uses the title Proprietor, without inventing a
+personal name. Photo edits used the built-in image tool with this brief:
+Remove only both corner logos; preserve people, faces, clothing, scene and sign.
+
+GALLERY
+Nine filter buttons cover All Events, Family Celebrations, Weddings, Corporate
+Events, Stalls & Food, Entertainment, Decoration, Exhibitions and More Moments.
+Categories follow existing event-page usage; an image used in multiple event
+pages can appear under multiple filters. Previously unassigned portfolio images
+remain in All Events and More Moments. To change a photo's category, edit its
+figure data-gallery-category attribute in gallery.html. Use one or more of:
+family wedding corporate stalls entertainment decoration exhibitions moments.
+
+CHECKS
+JavaScript syntax and page asset/link references pass. Spin-state tests cover
+fixed results, the two-spin limit, saved-state restoration, selecting a single
+offer, editable limits and expiry. Browser/device rendering has not been tested.
+
+LATEST UPDATE
+Contact: map uses the supplied Ganesh Nagar address, with an Open in Google Maps
+link. Review excerpts on Home come from the supplied screenshot; this is an
+automatic slider, not a live Google reviews API feed. The slider supports manual
+controls, pause, reduced motion, and pauses while interacting with its controls.
+Instagram points to https://www.instagram.com/aaamevents7/.
+Events navigation now uses compact links; Events has image cards.
+Home film invitation: What are you celebrating? links to the occasion section.
+The three generated header images are illustrative event concepts and are not
+added to the real-event gallery. They are in assets/headers/.
+
+BEFORE PUBLIC LAUNCH
+Replace the demo Facebook and YouTube links and confirm the sample spin offers
+in experience-config.js. The spin count is browser-local, not a verified
+per-customer limit. Review/map integrations rely on external Google services.
+Browser/device visual testing and live-link checks are still required before
+calling this production-ready. No deployment was performed.
+
+SEPTEMBER UPDATE
+Six wheel segments are independent of maxSpins (still 2). Existing used spins stay used; extracting a new ZIP does not clear browser storage. Change campaignId only to start a new campaign.
+Gallery: edit data-gallery-category, data-gallery-occasion and data-gallery-service on each figure in gallery.html. Space-separated service tags: stage balloons entrance entertainment food. Only known occasion photos have been tagged; unidentified images remain under Moments. Do not assign unrelated images to categories. Filtered page URLs can be shared once hosted.
+Reviews: only two genuine supplied excerpts are included; send additional verified review text before adding more. The small pause icon provides an accessible stop control; slides advance automatically unless paused or reduced motion is enabled.
+Housewarming: listed on family.html; booking.html?event=Housewarming opens the matching service choices. Selected choices and spin offer are included in WhatsApp text; the visitor must send the message.
+
+VISIBILITY FIX: Home section backgrounds restored. Alternating surfaces apply only to event pages. Full-section hide-on-scroll removed because large galleries could never reach the visibility threshold. Preview campaign changed to aaam-preview-september-v2 to start with two fresh spins, separate from the old demo. Refresh and navigation preserve this campaign count; do not change campaignId for routine design edits.

@@ -1,0 +1,39 @@
+/* SHARED SPIN WHEEL — change this file to update every page. */
+.spin-widget {font-family:Manrope,system-ui,sans-serif;color:#fff;}
+.spin-widget [hidden] {display:none!important;}
+.spin-widget button,.spin-widget a {font:inherit;cursor:pointer;}
+.spin-launch {position:fixed;left:max(16px,env(safe-area-inset-left));bottom:max(16px,env(safe-area-inset-bottom));z-index:46;border:1px solid #ffe16d;border-radius:99px;min-height:52px;padding:12px 18px;background:linear-gradient(115deg,#ffe765,#ffc13c);color:#06285e;font-weight:800!important;box-shadow:0 8px 28px #0004;}
+.spin-greeting {position:fixed;left:16px;bottom:82px;width:min(300px,calc(100vw - 88px));z-index:47;padding:24px;border:1px solid #ffd60088;border-radius:22px;background:#102b5c;box-shadow:0 20px 65px #0005;}
+.spin-greeting strong {display:block;font-size:20px;line-height:1.35;margin:8px 0;}
+.spin-greeting p {font-size:14px;line-height:1.6;margin:8px 0 18px;}
+.spin-gift {font-size:34px;}
+.spin-dismiss,.spin-close {position:absolute;right:6px;top:6px;width:44px;height:44px;border:0;border-radius:50%;background:transparent;color:inherit;font-size:29px!important;}
+.spin-greeting-cta,.spin-action,.spin-plan {display:block;padding:14px 18px;border:0;border-radius:12px;background:linear-gradient(115deg,#ffe765,#ffc13c);color:#06285e;font-weight:800!important;min-height:48px;text-align:center;}
+.spin-dialog {position:fixed;inset:0;margin:auto;width:min(480px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow-y:auto;overscroll-behavior:contain;border:1px solid #ffd60088;border-radius:26px;background:#102b5c;color:#fff;padding:32px 24px 24px;box-shadow:0 30px 100px #0008;background:radial-gradient(ellipse at top left,#5b237f 0,transparent 55%),linear-gradient(155deg,#142955,#06203f);}
+.spin-dialog::backdrop {background:#020b22cc;backdrop-filter:blur(5px);}
+.spin-dialog h2 {font:700 clamp(24px,6vw,32px)/1.2 Manrope,system-ui,sans-serif;text-align:center;margin:9px 0;}
+.spin-eyebrow {font-size:10px;letter-spacing:.15em;text-align:center;color:#ffd600;margin-top:15px;}
+.spin-intro {font-size:14px;line-height:1.6;text-align:center;}
+.spin-wheel-wrap {position:relative;width:min(100%,310px);margin:18px auto;}
+.spin-canvas {width:100%;height:auto;display:block;}
+.spin-pointer {position:absolute;top:-9px;left:50%;transform:translateX(-50%);z-index:2;color:#f05c40;font-size:34px;filter:drop-shadow(0 2px 1px #000);}
+.spin-hub {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;display:grid;place-items:center;border:3px solid #ffd600;border-radius:50%;background:#102b5c;color:#fff;font-size:13px;font-weight:800;}
+.spin-action {width:100%;}
+.spin-action:disabled {opacity:.65;cursor:default;}
+.spin-count {text-align:center;font-size:13px;}
+.spin-result {text-align:center;font-size:16px;line-height:1.5;color:#ffd600;}
+.spin-awards label {display:flex;align-items:center;gap:12px;padding:12px;border:1px solid #ffffff44;border-radius:12px;margin:8px 0;font-size:14px;cursor:pointer;}
+.spin-awards input {accent-color:#ffd600;width:20px;height:20px;flex:none;}
+.spin-awards p {font-size:14px;}
+.spin-claim {display:block;text-align:center;color:white;text-decoration:underline;margin-top:10px;padding:12px;}
+.spin-terms {font-size:12px;line-height:1.6;color:#d7dfed;}
+.spin-widget :is(a,button,input):focus-visible {outline:3px solid #ffc400;outline-offset:3px;}
+@media (max-width:620px) {.spin-launch {font-size:14px!important;padding:12px 14px;}
+.spin-dialog {padding:26px 18px 20px;}
+.spin-wheel-wrap {width:min(100%,270px);}}
+.spin-dialog{padding-top:8px;scroll-padding-top:52px;box-sizing:border-box;max-width:480px;}
+.spin-close{position:sticky;top:0;margin-left:auto;display:block;z-index:5;background:#102b5c;box-shadow:0 2px 10px #0003;}
+.spin-wheel-wrap{width:min(100%,250px);margin:12px auto;}.spin-dialog h2{font-size:26px;}.spin-eyebrow{font-size:12px;}.spin-count{font-size:14px;}
+@media(max-width:620px){.spin-dialog{padding:8px 16px 18px;}.spin-wheel-wrap{width:min(100%,220px);}.spin-intro{margin:8px 0;}}
+
+.spin-wheel-reveal{opacity:1;transform:none;}

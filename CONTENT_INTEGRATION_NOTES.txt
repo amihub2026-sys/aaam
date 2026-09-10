@@ -1,0 +1,34 @@
+AAAM EVENTS — CONTENT INTEGRATION NOTES
+
+This website version was rebuilt around the four client-provided content sources.
+
+1) AAAM Events Company Profile PDF
+Used for: current/proven company identity, About, Vision, Mission, Commitment, wedding/traditional services, family celebrations, corporate/professional services, reception/wedding stalls, food court stalls, entertainment, decoration/theme setup, official contact information and the 1000+ EVENT CONCEPTS statement.
+
+2) BMC AAAM EVENTS Excel
+Used for: customer segmentation, value propositions, Complete Event Solutions Under One Roof, One Call... Complete Celebration, operational strengths, customer relationship flow, customized proposals, package thinking, channels, growth areas, future divisions and the logic behind Today / Growth / Future.
+Internal cost structure, revenue calculations, 90-day KPI targets and unverified market-position targets are intentionally NOT published as public claims.
+
+3) AAAM SEO / GEO / GEP Master Strategy
+Used for: entity-first positioning, Madurai relevance, service-page structure, factual/non-inflated wording, current-vs-future MICE distinction, trust rules, CTA language, FAQ structure, page titles/meta descriptions and AI/search-friendly clarity.
+
+4) AAAM Master Strategic Focus
+Used for: website/customer-journey architecture, audience-specific messages, package framework, corporate growth phases, future-roadmap distinction and conversion path.
+
+IMPORTANT CONTENT RULES APPLIED
+- AAAM is not presented as only a decoration company.
+- Core positioning: Event Planning + Event Experience + Event Execution.
+- 1000+ means event concepts, not completed events.
+- No fabricated awards, reviews, clients, certifications, event counts or market-leadership claims.
+- Current/proven services are separated from growth and future roadmap services.
+- Large MICE capability is not falsely claimed.
+- Pricing/profitability calculations remain internal.
+- Primary contact retained: +91 85249 52495.
+- Hero dark-blue/navy overlays removed from hero imagery.
+
+NEW CONTENT PAGES
+- packages.html
+- exhibitions.html
+- faq.html
+
+Existing photography and event-customization functionality was preserved.
