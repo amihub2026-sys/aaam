@@ -4,10 +4,10 @@ window.AAAM_EXPERIENCE = {
   maxSpins: 2,
   offerValidDays: null, // null = no expiry, or enter a number of days.
   whatsapp: "918524952495",
-  greeting: "Your celebration deserves a little surprise!",
-  greetingText: "Spin the wheel and discover an offer for your next event.",
-  terms:
-    "Demo offer. Subject to confirmation by AAAM Events. One offer per enquiry; offers cannot be combined.",
+greeting: "Your celebration deserves something special!",
+greetingText: "Spin the wheel and unlock an exclusive offer for your upcoming event.",
+terms:
+  "Offer valid for eligible event bookings and subject to availability. Final offer value will be confirmed by AAAM Events at the time of booking. One promotional offer may be applied per enquiry and cannot be combined with other offers.",
   socials: {
     instagram: "https://www.instagram.com/aaamevents7/",
     facebook: "https://www.facebook.com/",
@@ -17,42 +17,42 @@ window.AAAM_EXPERIENCE = {
     {
       id: "discount40",
       label: "40% OFF",
-      message: "40% discount on your event enquiry",
+      message: "Enjoy up to 40% off on your eligible event booking",
       percent: 40,
       color: "#ffd761",
     },
     {
       id: "welcome",
       label: "FREE WELCOME BOARD",
-      message: "Free welcome board for your celebration",
+      message: "Complimentary welcome board for your celebration",
       percent: 0,
       color: "#ff8ab7",
     },
     {
       id: "discount10",
       label: "10% OFF",
-      message: "10% discount on your event enquiry",
+     message: "Enjoy 10% off on your eligible event booking",
       percent: 10,
       color: "#6ce3d3",
     },
     {
       id: "decor",
       label: "DECOR SURPRISE",
-      message: "A complimentary decor surprise",
+      message: "Receive a complimentary décor surprise for your celebration",
       percent: 0,
       color: "#b8a5ff",
     },
     {
       id: "discount20",
       label: "20% OFF",
-      message: "20% discount on your event enquiry",
+      message: "Enjoy 20% off on your eligible event booking",
       percent: 20,
       color: "#ffab69",
     },
     {
       id: "photo",
       label: "PHOTO SURPRISE",
-      message: "A photography add-on, subject to confirmation",
+      message: "Receive a complimentary photography add-on, subject to availability",
       percent: 0,
       color: "#80c9ff",
     },
