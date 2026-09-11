@@ -599,3 +599,74 @@
   opacity: 1;
   transform: none;
 }
+@media (max-width: 620px) {
+
+  .spin-mascot-promo {
+    position: fixed !important;
+
+    top: auto !important;
+    bottom: 78px !important;
+
+    left: 58px !important;
+    right: 10px !important;
+
+    width: auto !important;
+    min-height: 120px !important;
+
+    z-index: 9999 !important;
+  }
+
+  .spin-mascot-img {
+    position: absolute !important;
+
+    left: -6px !important;
+    bottom: -2px !important;
+
+    width: 92px !important;
+    height: auto !important;
+  }
+
+  .spin-mascot-copy {
+    position: absolute !important;
+
+    left: 72px !important;
+    right: 0 !important;
+    top: 10px !important;
+
+    width: auto !important;
+
+    padding: 11px 12px !important;
+    box-sizing: border-box !important;
+
+    border-radius: 16px !important;
+  }
+
+  .spin-mascot-copy strong {
+    font-size: 15px !important;
+  }
+
+  .spin-mascot-copy p {
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+  }
+
+  .spin-mascot-copy .spin-greeting-cta {
+    min-height: 36px !important;
+    font-size: 11px !important;
+  }
+
+  .spin-mascot-promo .spin-dismiss {
+    top: 0 !important;
+    right: -5px !important;
+
+    width: 28px !important;
+    height: 28px !important;
+
+    z-index: 20 !important;
+  }
+
+  .spin-launch {
+    left: 18px !important;
+    bottom: 18px !important;
+  }
+}
