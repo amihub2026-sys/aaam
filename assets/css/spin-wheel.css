@@ -427,7 +427,7 @@
   display: block;
   text-align: center;
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
   margin-top: 10px;
   padding: 12px;
 }
@@ -670,3 +670,5 @@
     bottom: 18px !important;
   }
 }
+/* WhatsApp claim action styled as a full-width button. */
+.spin-claim{box-sizing:border-box;width:100%;min-height:48px;border:1px solid #25d366;border-radius:12px;background:#128c45;color:#fff;font-weight:800;cursor:pointer;text-decoration:none}.spin-claim:hover{background:#0c7036}.spin-claim[hidden]{display:none}
